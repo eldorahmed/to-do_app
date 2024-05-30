@@ -588,6 +588,18 @@ video {
   margin-top: -200px;
 }
 
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
 .flex {
   display: flex;
 }

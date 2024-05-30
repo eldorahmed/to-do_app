@@ -22,7 +22,7 @@ const renderTasks = (filter = "all") => {
        ${task.completed ? "line-through text-[#D1D2DA]" : ""}`;
     li.innerHTML = `
     
-          <input type="checkbox" class="checkbox" ${
+          <input type="checkbox" class="mr-[10px]" ${
             task.completed ? "checked" : ""
           } />
           <span class="flex-1 mx-2">${task.text}</span>
