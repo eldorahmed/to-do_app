@@ -18,7 +18,7 @@ const renderTasks = (filter = "all") => {
 
   filteredTasks.forEach((task) => {
     const li = document.createElement("li");
-    li.className = `flex justify-between text-[18px] text-[#494C6B] items-center px-4 py-[20px] bg-white rounded-t border 
+    li.className = `flex justify-between text-[18px] text-[#494C6B] items-center px-4 py-[20px] bg-white rounded-t border-b border-[#E3E4F1] 
        ${task.completed ? "line-through text-[#D1D2DA]" : ""}`;
     li.innerHTML = `
     
